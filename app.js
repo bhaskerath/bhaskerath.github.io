@@ -89,7 +89,7 @@ function getUserName(name){
       username.style.color = "green";
    } else if (name.includes('Shefali')|| name.includes('shefali')){
       username.innerHTML = "Hi, Dear💜";
-      username.style.color = "Lavender";
+      username.style.color = "rgb(204, 102, 255)";
    } 
    else{
       username.innerHTML = "Hi, "+name;
