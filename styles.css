@@ -103,6 +103,8 @@ header > h1 {
 .choice:hover {
   cursor: pointer;
   background-color: black;
+  color: #be60be;
+  font-size: medium;
 }
 
 #action-message{
