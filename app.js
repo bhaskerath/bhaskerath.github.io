@@ -84,7 +84,8 @@ function game(userChioce) {
  * Get the user name from user and display on webpage!
  */
 function getUserName(name){
-   if(name == null || name == ""){
+   name = name.trim();
+   if(name == null || name == "" || name.length == 0){
       username.innerHTML = "Hi Alien!";
       username.style.color = "green";
    } else if (name.includes('Shefali')|| name.includes('shefali')){
